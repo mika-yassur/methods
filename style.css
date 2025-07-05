@@ -21,6 +21,14 @@ body {
     position: absolute;
     top: 320px;      /* Lower than .project */
     left: 140px;     /* Further to the right */
-    font-size: 13px; /* Slightly smaller if you prefer */
+    font-size: 14px; /* Slightly smaller if you prefer */
     max-width: 600px;
+}
+.citations-right {
+    position: absolute;
+    top: 640px;         /* Adjust as needed for vertical placement */
+    right: 60px;        /* Distance from the right edge */
+    width: 400px;       /* Adjust width as needed */
+    text-align: right;  /* Right-align the text */
+    font-size: 14px;    /* Match or adjust font size */
 }
