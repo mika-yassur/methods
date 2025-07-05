@@ -35,8 +35,8 @@ body {
     position: absolute;
     top: 480px;         /* Adjust as needed for vertical placement */
     right: 10px;        /* Distance from the right edge */
-    width: 550px;       /* Adjust width as needed */
+    width: 600px;       /* Adjust width as needed */
     text-align: right;  /* Right-align the text */
     font-size: 14px;    /* Match or adjust font size */
-    margin-bottom: 20px; /* Add space below the citations */
+    margin-bottom: 40px; /* Add space below the citations */
 }
