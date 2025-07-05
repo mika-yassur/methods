@@ -26,9 +26,9 @@ body {
 }
 .citations-right {
     position: absolute;
-    top: 640px;         /* Adjust as needed for vertical placement */
-    right: 60px;        /* Distance from the right edge */
-    width: 400px;       /* Adjust width as needed */
+    top: 400px;         /* Adjust as needed for vertical placement */
+    right: 20px;        /* Distance from the right edge */
+    width: 500px;       /* Adjust width as needed */
     text-align: right;  /* Right-align the text */
     font-size: 14px;    /* Match or adjust font size */
 }
