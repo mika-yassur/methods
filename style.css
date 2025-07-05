@@ -31,4 +31,6 @@ body {
     width: 500px;       /* Adjust width as needed */
     text-align: right;  /* Right-align the text */
     font-size: 14px;    /* Match or adjust font size */
+    line-height: 1.7; /* Increase line spacing for readability */
+    margin-bottom: 20px; /* Add space below the citations */
 }
