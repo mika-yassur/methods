@@ -9,6 +9,7 @@ body {
     left: 50px;      /* Indent from the left edge */
     font-size: 14px; /* Set to your preferred size */
     margin: 0;       /* Remove default margin */
+    font-weight: normal; /* ensures it's not bold */
 }
 .content {
     position: absolute;
