@@ -1,5 +1,5 @@
 body {
-    font-family: 'Tahoma', sans-serif; /* Use a sans-serif font for better readability */
+    font-family: 'Andale Mono', sans-serif; /* Use a sans-serif font for better readability */
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,7 @@ body {
     top: 200px;      /* Adjust as needed to position below the header */
     left: 120px;     /* Indent further to the right */
     font-size: 14px; /* Match the content font size */
-    max-width: 500px;
+    max-width: 530px;
 }
 .references {
     position: absolute;
