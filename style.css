@@ -33,7 +33,7 @@ body {
 }
 .citations-right {
     position: absolute;
-    top: 400px;         /* Adjust as needed for vertical placement */
+    top: 480px;         /* Adjust as needed for vertical placement */
     right: 10px;        /* Distance from the right edge */
     width: 550px;       /* Adjust width as needed */
     text-align: right;  /* Right-align the text */
