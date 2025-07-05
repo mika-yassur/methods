@@ -10,3 +10,10 @@ body {
     left: 50px;
     font-size: 18px;
 }
+.project {
+    position: absolute;
+    top: 100px;      /* Adjust as needed to position below the header */
+    left: 120px;     /* Indent further to the right */
+    font-size: 14px; /* Match the content font size */
+    max-width: 500px;
+}
