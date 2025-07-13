@@ -46,7 +46,25 @@ body {
 }
 .First-Layer {
     position: absolute;
-    top: 600px;       /* Adjust as needed for vertical spacing */
+    top: 700px;       /* Adjust as needed for vertical spacing */
+    left: 120px;       /* Indent from the left edge */
+    font-size: 14px;  /* Set to your preferred size */
+    margin: 0;        /* Remove default margin */
+    font-weight: normal; /* ensures it's not bold */
+    max-width: 550px;
+}
+.Second-Layer {
+    position: absolute;
+    top: 1000px;       /* Adjust as needed for vertical spacing */
+    right: 20px;       /* Indent from the left edge */
+    font-size: 14px;  /* Set to your preferred size */
+    margin: 0;        /* Remove default margin */
+    font-weight: normal; /* ensures it's not bold */
+    max-width: 500px;
+}
+.Third-Layer {
+    position: absolute;
+    top: 2000px;       /* Adjust as needed for vertical spacing */
     left: 120px;       /* Indent from the left edge */
     font-size: 14px;  /* Set to your preferred size */
     margin: 0;        /* Remove default margin */
