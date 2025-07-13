@@ -46,9 +46,10 @@ body {
 }
 .First-Layer {
     position: absolute;
-    top: 100px;       /* Adjust as needed for vertical spacing */
+    top: 600px;       /* Adjust as needed for vertical spacing */
     left: 120px;       /* Indent from the left edge */
     font-size: 14px;  /* Set to your preferred size */
     margin: 0;        /* Remove default margin */
     font-weight: normal; /* ensures it's not bold */
+    max-width: 500px;
 }
