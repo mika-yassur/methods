@@ -39,13 +39,23 @@ img {
 }
 
 /* Responsive Image Blocks */
-.image-block {
+.image-block,
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
     max-width: 1000px;
     margin: 2rem auto;
     text-align: center;
 }
 
-.image-block img {
+.image-block img,
+.image1 img,
+.image2 img,
+.image3 img,
+.image4 img,
+.image5 img {
     max-width: 100%;
     width: auto;
     height: auto;
