@@ -1,119 +1,87 @@
+/* Global Styles */
 body {
-    font-family: 'Andale Mono', sans-serif; /* Use a sans-serif font for better readability */
+    font-family: 'Andale Mono', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #000;
 }
-.h1 {
-    position: absolute;
-    top: 20px;       /* Adjust as needed for vertical spacing */
-    left: 50px;      /* Indent from the left edge */
-    font-size: 14px; /* Set to your preferred size */
-    margin: 0;       /* Remove default margin */
-    font-weight: normal; /* ensures it's not bold */
+
+h1, h2 {
+    font-weight: normal;
+    margin: 0.5rem 0;
 }
+
 .content {
-    position: absolute;
-    top: 10px;
-    left: 50px;
-    font-size: 14px;
-    font-weight: normal; /*undoes bold from h1*/
+    padding: 2rem 1rem;
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
 }
-.project {
-    position: absolute;
-    top: 200px;      /* Adjust as needed to position below the header */
-    left: 120px;     /* Indent further to the right */
-    font-size: 14px; /* Match the content font size */
-    max-width: 530px;
-}
-.image1 {
-    position: absolute;
-    top: 100px;      
-    right: 50px;      
-}
-.image1 img {
-    width: 500px;    /* Adjust this size as needed */
-    height: auto;    
-}
-.image2 {
-    position: absolute;
-    top: 850px;      
-    right: 50px;      
-}
-.image2 img {
-    width: 500px;    /* Adjust this size as needed */
-    height: auto;    
-}
-.image3 {
-    position: absolute;
-    top: 1200px;      
-    right: 50px;      
-}
-.image3 img {
-    width: 500px;    /* Adjust this size as needed */
-    height: auto;    
-}
-.image4 {
-    position: absolute;
-    top: 1650px;      
-    left: 200px;      
-}
-.image4 img {
-    width: 600px;    /* Adjust this size as needed */
-    height: auto;    
-}
-.image5 {
-    position: absolute;
-    top: 620px;      
-    left: 230px;      
-}
-.image5 img {
-    width: 900px;    /* Adjust this size as needed */
-    height: auto;    
-}
-.references {
-    position: absolute;
-    top: 320px;      /* Lower than .project */
-    left: 120px;     
-    font-size: 14px; /* Slightly smaller if you prefer */
-    max-width: 600px;
-}
-.citations-right {
-    position: absolute;
-    top: 500px;         /* Adjust as needed for vertical placement */
-    right: 20px;        /* Distance from the right edge */
-    width: 550px;       /* Adjust width as needed */
-    text-align: right;  /* Right-align the text */
-    font-size: 14px;    /* Match or adjust font size */
-    margin-bottom: 40px; /* Add space below the citations */
-    word-break: break-all;   /* Add this line */
-    overflow-wrap: break-word; /* And this for extra safety */
-    bottom: 45 px;  
-}
-.First-Layer {
-    position: absolute;
-    top: 700px;       /* Adjust as needed for vertical spacing */
-    left: 120px;       /* Indent from the left edge */
-    font-size: 14px;  /* Set to your preferred size */
-    margin: 0;        /* Remove default margin */
-    font-weight: normal; /* ensures it's not bold */
-    max-width: 550px;
-}
-.Second-Layer {
-    position: absolute;
-    top: 1500px;       /* Adjust as needed for vertical spacing */
-    right: 20px; 
-    text-align: right;      /* Indent from the left edge */
-    font-size: 14px;  /* Set to your preferred size */
-    margin: 0;        /* Remove default margin */
-    font-weight: normal; /* ensures it's not bold */
-    max-width: 500px;
-}
+
+.project,
+.references,
+.citations-right,
+.First-Layer,
+.Second-Layer,
 .Third-Layer {
-    position: absolute;
-    top: 2000px;       /* Adjust as needed for vertical spacing */
-    left: 120px;       /* Indent from the left edge */
-    font-size: 14px;  /* Set to your preferred size */
-    margin: 0;        /* Remove default margin */
-    font-weight: normal; /* ensures it's not bold */
-    max-width: 550px;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    font-size: 14px;
+}
+
+/* Responsive Image Blocks */
+.image-block {
+    max-width: 1000px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.image-block img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Two-Column Text + Image Layout (optional use) */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.section .text {
+    flex: 1 1 300px;
+}
+
+.section .image {
+    flex: 1 1 300px;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Right-Aligned Citations */
+.citations-right {
+    text-align: right;
+    word-break: break-word;
+}
+
+/* Links */
+a {
+    color: #003366;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
 }
