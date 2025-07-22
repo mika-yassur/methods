@@ -13,6 +13,12 @@ h1, h2 {
     margin: 0.5rem 0;
 }
 
+/* Global image rule to prevent oversized images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .content {
     padding: 2rem 1rem;
     text-align: left;
@@ -41,8 +47,11 @@ h1, h2 {
 
 .image-block img {
     max-width: 100%;
+    width: auto;
     height: auto;
     border-radius: 4px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Two-Column Text + Image Layout (optional use) */
