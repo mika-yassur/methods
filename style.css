@@ -63,8 +63,9 @@ body {
 }
 .image5 {
     position: absolute;
-    top: 620px;      
-    left: 230px;      
+    top: 2600px;      
+    left: 50%;   
+    transform: translateX(-50%); /* Center the image */   
 }
 .image5 img {
     width: 900px;    /* Adjust this size as needed */
