@@ -34,6 +34,42 @@ body {
     width: 500px;    /* Adjust this size as needed */
     height: auto;    
 }
+.image2 {
+    position: absolute;
+    top: 850px;      
+    right: 50px;      
+}
+.image2 img {
+    width: 500px;    /* Adjust this size as needed */
+    height: auto;    
+}
+.image3 {
+    position: absolute;
+    top: 1200px;      
+    right: 50px;      
+}
+.image3 img {
+    width: 500px;    /* Adjust this size as needed */
+    height: auto;    
+}
+.image4 {
+    position: absolute;
+    top: 1650px;      
+    left: 200px;      
+}
+.image4 img {
+    width: 600px;    /* Adjust this size as needed */
+    height: auto;    
+}
+.image5 {
+    position: absolute;
+    top: 620px;      
+    left: 230px;      
+}
+.image5 img {
+    width: 900px;    /* Adjust this size as needed */
+    height: auto;    
+}
 .references {
     position: absolute;
     top: 320px;      /* Lower than .project */
